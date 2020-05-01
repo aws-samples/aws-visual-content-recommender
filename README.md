@@ -8,7 +8,7 @@ Each reference image from Caltech101 dataset is represented as a 2048 feature ve
 
 ![diagram](../master/pic1.png)
 
-When we preset a new query image, it's computing the related feature vector from Amazon SageMaker hosted model and query Amazon Elasticsearch KNN index to find similar images
+When we present a new query image, it's computing the related feature vector from Amazon SageMaker hosted model and query Amazon Elasticsearch KNN index to find similar images
 
 ![diagram](../master/pic2.png)
 
