@@ -20,7 +20,7 @@ Amplify.configure({
       endpoints: [
           {
               name: "ImageSearch",
-              endpoint: endpoint: Config.apiEndpoint
+              endpoint: Config.apiEndpoint
             }
       ]
   }
