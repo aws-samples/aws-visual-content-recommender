@@ -195,7 +195,7 @@ class App extends React.Component {
           <Grid item xs={10}>
             <Paper className={classes.paper}>
               Step 2:<p/>
-              Provide an image to search against. Choose an image of a dress, like the one here: <p/>
+              Provide an image to search against. Choose an image of a dress, like the one here from the Zolando dataset: <p/>
               <Link href='https://i4.ztat.net/large/VE/12/1C/14/8K/12/VE121C148-K12@10.jpg' target="_blank" rel="noreferrer">https://i4.ztat.net/large/VE/12/1C/14/8K/12/VE121C148-K12@10.jpg</Link>
             </Paper>
           </Grid>
@@ -249,7 +249,7 @@ class App extends React.Component {
                 <GridList cellHeight={200} className={classes.gridList} cols={3}>
                   {this.state.pictures.map((tile) => (
                     <GridListTile key={tile.img} cols={tile.cols || 1}>
-                      <img src={tile.img} alt="Similar photos..." />
+                      <img src={tile.img} alt="Similar photos..." style={{height:"100%", width: "auto"}} />
                     </GridListTile>
                   ))}
                 </GridList>
